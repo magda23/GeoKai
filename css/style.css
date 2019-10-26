@@ -1,0 +1,334 @@
+body{
+	margin:0;
+	background-color: #0c0c0c;
+}
+.header-block{
+	position: absolute;
+	width: 100%;
+	z-index: 1;
+}
+.container{
+	width: 1200px;
+}
+.header-menu{
+	margin-top: 10px;
+	margin-right: -14px;
+}
+.logo-block{
+	width: 240px;
+	height: 95px;
+}
+.logo-block img{
+	max-width: 100%;
+	height: auto;
+}
+.navigation{
+	padding-right: 1px;
+}
+.nav{
+	display: flex;
+	justify-content: flex-end;
+	padding: 20px 140px 0 0;
+    margin-left: 32px;
+}
+.nav-a{
+	color: #fff;
+	font-size: 18px;
+	margin-right: 16px;
+	font-family: 'BPG Nino Mtavruli-normal';
+}
+.nav-a:last-child{
+	margin-right: 0;
+}
+.nav-a:hover{
+	color: #000;
+	transition: 0.3s;
+}
+.main-block{
+	padding-top: 10px;
+	padding-right: 1px;
+}
+.video-block{
+	position: absolute;
+	top: 170px;
+	width: 100%;
+}
+.board{
+	background-color: #cd8600;
+	height: 500px;
+}
+.video-item video{
+	max-width: 854px;
+}
+.bank-block{
+	padding-right: 1px;
+}
+.suggestion{
+	margin-top: 180px;
+}
+.sugg-p{
+	color: #000;
+	font-size: 25px;
+	font-family: 'BPG Nino Mtavruli-Bold';
+	margin-bottom: 50px;
+}
+.conditions{
+	color: #fff;
+	font-size: 16px;
+	font-family: 'BPG Nino Mtavruli-Bold';
+}
+.mybank{
+	margin-top: 90px;
+}
+.bank-a{
+	width: 350px;
+}
+.bank-a img{
+	max-width: 100%;
+}
+#map{
+	width: 100%;
+	height: 400px;
+	margin: 16% 0 20px;
+}
+.board-info{
+	position: absolute;
+	top: 200px;
+	width: 100%;
+}
+.left-side{
+	display: flex;
+	padding-top: 10%;
+	background-color: #5f6153;
+	height: 40rem;
+}
+.vertical{
+	border-left: 1px solid #fff;
+	height: 37px;
+}
+.vertical-h{
+	color: #DC8F01;
+	font-size: 15px;
+	font-family: 'BPG Nino Mtavruli-normal';
+	transform: rotate(270deg);
+    transform-origin: left top 0;
+    margin-top: 30px;
+}
+.menu-h{
+	margin-top: 50px;
+	color: #DC8F01;
+	font-size: 18px;
+	font-family: 'BPG Nino Mtavruli-normal';
+}
+.menu-h:hover{
+	color: #fff;
+	transition: 0.3s;
+}
+.title-h{
+	color: #fff;
+	font-size: 22px;
+	font-family: 'BPG Nino Mtavruli-normal';
+}
+.side-p{
+	color: #fff;
+	font-size: 13px;
+	font-family: 'BPG Nino Mtavruli-normal';
+	margin-top: 20px;
+	line-height: 15px;
+}
+.bank-bg{
+	padding: 1px;
+	flex-direction: column;
+}
+.bg{
+	position: relative;
+	background-color: #5F6153;
+	width: 70%;
+	height: 329px;
+}
+.img-block{
+	position: absolute;
+	bottom: -2px;
+	width: 350px;
+}
+.img-block img{
+	max-width: 100%;
+}
+.architect{
+	color: #fff;
+	font-size: 13px;
+	font-family: 'BPG Nino Mtavruli-normal';
+	margin: 20px 0;
+}
+.gallery-block{
+	margin-top: 20px;
+}
+.gallery-img{
+	overflow: hidden;
+	border-radius: 5px;
+}
+.gallery-img img{
+	width: 100%;
+	height: 120px;
+	transition: 0.15s;
+}
+.gallery-img img:hover{
+	transform: scale(1.2);
+}
+.s1{
+	width: 100%;
+	margin-top: 20px;
+}
+.second-side .swiper-pagination{
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%);
+	margin-top: 20px;
+	z-index: 1;
+}
+.second-side .swiper-pagination-bullet{
+	margin:0 5px;
+	background-color: #fff;
+}
+.second-side .swiper-pagination-bullet-active{
+	background-color: #cd8600;
+}
+.top-line{
+	border-bottom: 1px solid #fff;
+	width: 502px;
+    margin: 20px 0 15px;
+}
+.price-block{
+	margin-bottom: 5px;
+}
+.price-h,.price-p{
+	border:1px solid #fff;
+	font-size: 13px;
+	font-family: 'BPG Nino Mtavruli-normal';
+	padding: 8px 5px 5px;
+	color: #fff;
+}
+.price-h{
+	width: 400px;
+}
+.price-p{
+	width: 100px;
+	margin-left: 2px;
+}
+.contact-info{
+	margin-top: 20px;
+	flex-direction: column;
+}
+.contact-a{
+	color:#fff;
+	font-size: 19px;
+	margin: 15px 0;
+	font-family: 'BPG Nino Mtavruli-normal';
+}
+.contact-a:first-child{
+	margin:0;
+}
+.contact-a:last-child{
+	margin: 0;
+}
+.contact-a:hover{
+	color: #cd8600;
+}
+#map2{
+	height: 200px;
+	margin-top: 50px;
+}
+/*lightbox*/
+/* The Modal (background) */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: black;
+}
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  width: 50%;
+  max-width: 1200px;
+}
+
+/* The Close Button */
+.close {
+  color: white;
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #999;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.mySlides {
+  display: none;
+}
+.mySlides img{
+	max-height: 400px;
+	object-fit: cover;
+	object-position: center;
+}
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+img {
+  margin-bottom: -4px;
+}
+
+img.hover-shadow {
+  transition: 0.3s;
+}
+
+
+/*end lightbox*/
